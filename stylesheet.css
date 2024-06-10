@@ -141,6 +141,31 @@ body
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan,0 0 200px cyan
 }
+.home-sci-2 {
+    display: inline-block;
+    padding: 12px 28px;
+    margin-left: 30%;
+    background: #808080;
+    font-size: 16px;
+    border-radius: 40px;
+    color: white;
+    align-items: flex-start;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #808080,
+    0 0 25px #808080;
+}
+.home-sci-2:hover {
+    background: #39FF14;
+    color: #000000;
+    box-shadow: 0 0 5px #39FF14,
+    0 0 25px #39FF14, 0 0 50px #39FF14,
+    0 0 100px #39FF14,0 0 200px #39FF14;
+}
 .about {
     display: grid;
     grid-template-columns: repeat(2,1fr);
